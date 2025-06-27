@@ -1,6 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MyImage from "../assets/img/image2.png";
+import Image7 from "../assets/img/image7.avif";
+import Image8 from "../assets/img/Image8.avif";
+import Image6 from "../assets/img/image6.avif";
+import Image2 from "../assets/img/image2.png";
+import Image9 from "../assets/img/image9.avif";
+import Image4 from "../assets/img/image4.avif";
+
+const images = [Image7, Image6, Image8, Image2, Image9, Image4];
 
 const Home = () => {
   return (
@@ -115,14 +123,7 @@ const Home = () => {
               <div className="flex space-x-6 animate-marquee">
                 <div className="relative w-full overflow-hidden">
                   <div className="flex space-x-6 animate-marquee">
-                    {[
-                      "/src/assets/img/image7.avif",
-                      "/src/assets/img/image6.avif",
-                      "/src/assets/img/Image8.avif",
-                      "src//assets/img/image2.png",
-                      "/src/assets/img/Image9.avif",
-                      "/src/assets/img/Image4.avif",
-                    ].map((src, index) => (
+                    {images.map((src, index) => (
                       <div
                         key={index}
                         className="p-4 border border-gray-200 rounded-xl shadow-sm flex-shrink-0 w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 flex items-center justify-center bg-white"
