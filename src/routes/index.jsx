@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import Booking from "../pages/Booking";
-import Home from "../pages/home";
+import Home from "../pages/Home";
 import Faqs from "../pages/Faqs";
 import LostFound from "../pages/LostButFound";
 import NotFound from "../pages/NotFound";
