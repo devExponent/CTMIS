@@ -75,7 +75,7 @@ export default function Navbar() {
             Rent Car
           </Link>
           <Link
-            to="/lost-found"
+            to="/lostfound"
             className="hover:text-gray-300"
             onClick={() => setIsOpen(false)}
           >
@@ -88,13 +88,13 @@ export default function Navbar() {
           >
             Faqs
           </Link>
-          <Link
+          {/* <Link
             to="/admin"
             className="hover:text-gray-300"
             onClick={() => setIsOpen(false)}
           >
             Admin Panel
-          </Link>
+          </Link> */}
           <Link
             to="/login"
             className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-200"

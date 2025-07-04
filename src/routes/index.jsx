@@ -10,7 +10,7 @@ import {
 import Booking from "../pages/Booking";
 import Home from "../pages/Home";
 import Faqs from "../pages/Faqs";
-import LostFound from "../pages/LostButFound";
+import LostButFound from "../pages/LostButFound";
 import NotFound from "../pages/NotFound";
 import RentCar from "../pages/RentCar";
 import Navbar from "../components/navbar/navbar";
@@ -19,6 +19,7 @@ import Login from "../auth/Login";
 import Admin from "../pages/Dashboard/Admin";
 import User from "../pages/Dashboard/Profile";
 import Signup from "../auth/Signup";
+import AdminDashboard from "../pages/Dashboard/Admin";
 
 import { ToastContainer } from "react-toastify";
 import { auth } from "../components/firebase";
@@ -50,8 +51,9 @@ export default function AppRoutes() {
         />
         <Route path="/rent-car" element={<RentCar />} />
         <Route path="/faqs" element={<Faqs />} />
-        <Route path="/lostfound" element={<LostFound />} />
+        <Route path="/lostfound" element={<LostButFound />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/admin" element={<AdminDashboard />} />
         <Route
           path="/login"
           element={user ? <Navigate to="/user" /> : <Login />}
