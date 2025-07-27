@@ -16,7 +16,6 @@ import RentCar from "../pages/RentCar";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Login from "../auth/Login";
-import Admin from "../pages/Dashboard/Admin";
 import User from "../pages/Dashboard/Profile";
 import Signup from "../auth/Signup";
 import AdminDashboard from "../pages/Dashboard/Admin";
@@ -27,6 +26,11 @@ import { auth } from "../components/firebase";
 export default function AppRoutes() {
   const [user, setUser] = useState(null);
   const [loadingAuth, setLoadingAuth] = useState(true);
+
+  const ProtectedAdminRoute = ({ children }) => {
+    const isAdmin = localStorage.getItem("isAdmin") === "true";
+    return isAdmin ? children : <Navigate to="/login" replace />;
+  };
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((u) => {
@@ -62,7 +66,15 @@ export default function AppRoutes() {
           path="/user"
           element={user ? <User /> : <Navigate to="/login" />}
         />
-        <Route path="/admin" element={<Admin />} />
+        <Route
+          path="/admin"
+          element={
+            <ProtectedAdminRoute>
+              <AdminDashboard />
+            </ProtectedAdminRoute>
+          }
+        />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       <ToastContainer />

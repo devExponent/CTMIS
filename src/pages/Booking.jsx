@@ -33,7 +33,13 @@ const BookRide = () => {
     "Coaster Bus - BUS-012",
     "Sienna - BUS-013",
   ];
-  const drivers = ["Mr. Adebayo", "Ms. Chiamaka", "Mr. Idris"];
+  const drivers = [
+    "Mr. Adebayo",
+    "Ms. Chiamaka",
+    "Mr. Idris",
+    "Musa Aminu",
+    "Adeiza",
+  ];
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
