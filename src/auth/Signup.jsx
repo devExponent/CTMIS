@@ -74,8 +74,8 @@ const Signup = () => {
   return (
     <>
       <section>
-        <div className="h-screen grid place-items-center bg-gray-300">
-          <div className="w-[80%] sm:w-[50rem] shadow-2xl rounded-2xl bg-white p-10">
+        <div className="grid place-items-center bg-gray-300">
+          <div className="w-[80%] sm:w-[50rem] shadow-2xl rounded-2xl bg-white p-10 my-11">
             <div className="text-center">
               <h1 className="font-bold text-[2rem] md:text-[2rem] mb-10">
                 Create your account

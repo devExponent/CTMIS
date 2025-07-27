@@ -21,9 +21,7 @@ export default function Navbar() {
           <Link to="/booking" className="hover:text-gray-500">
             Book Ride
           </Link>
-          <Link to="/rent-car" className="hover:text-gray-500">
-            Rent Car
-          </Link>
+
           <Link to="/lostfound" className="hover:text-gray-500">
             Lost & Found
           </Link>
@@ -67,13 +65,7 @@ export default function Navbar() {
           >
             Book Ride
           </Link>
-          <Link
-            to="/rent-car"
-            className="hover:text-gray-300"
-            onClick={() => setIsOpen(false)}
-          >
-            Rent Car
-          </Link>
+
           <Link
             to="/lostfound"
             className="hover:text-gray-300"

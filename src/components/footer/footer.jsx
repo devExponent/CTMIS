@@ -13,9 +13,7 @@ export default function Footer() {
           <Link to="/booking" className="hover:text-blue-500 sm:w-auto w-full">
             Book Ride
           </Link>
-          <Link to="/rent-car" className="hover:text-blue-500 sm:w-auto w-full">
-            Rent a Car
-          </Link>
+
           <Link
             to="/lost-found"
             className="hover:text-blue-500 sm:w-auto w-full"
