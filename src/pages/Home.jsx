@@ -14,13 +14,13 @@ const Home = () => {
   return (
     <section>
       <section className="bg-gray-100">
-        <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4">
+        <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4 items-center">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
             <div className=" text-black flex flex-col justify-center">
-              <h1 className="font-bold text-[2rem] mt-6 md:mt-0 md:text-[3rem]">
+              <h1 className="font-bold text-[2rem] mt-5 md:mt-0 md:text-[3rem]">
                 Optimize Your Transportation Operations with CTMIS
               </h1>
-              <p className="text-justify">
+              <p className="mt-2 md:text-xl">
                 In today's fast-paced transportation landscape, efficient
                 management of passenger services is crucial for operators to
                 maintain a competitive edge. The Computerized Transport
@@ -42,8 +42,8 @@ const Home = () => {
       </section>
       <section className="py-12 mb-8">
         <div className="container mx-auto px-4 w-full md:w-8/12 lg:w-10/12 text-justify">
-          <p className="text-lg text-justify">
-            Welcome to the Computerized Transport Management Information System
+          <p className="md:text-xl">
+            {/* Welcome to the Computerized Transport Management Information System
             (CTMIS), your all-encompassing solution for modernizing
             transportation operations. Our platform offers real-time tracking,
             intelligent route optimization, and seamless integration, empowering
@@ -54,6 +54,7 @@ const Home = () => {
             and exceptional user experiences. Experience the future of
             transportation management with CTMIS, where innovation drives
             success.
+             */}
           </p>
         </div>
       </section>
