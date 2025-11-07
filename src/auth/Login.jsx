@@ -22,7 +22,6 @@ const Login = () => {
       });
 
       setTimeout(() => {
-        // 🔐 Check if admin login
         if (email === "admin@gmail.com" && password === "admin123*") {
           navigate("/admin");
         } else {
@@ -89,7 +88,7 @@ const Login = () => {
               <div className="flex justify-center w-full">
                 <button
                   type="submit"
-                  className="px-28 py-4 text-base bg-gray-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+                  className="py-5 w-full text-base bg-gray-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
                 >
                   Sign In
                 </button>
