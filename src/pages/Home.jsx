@@ -64,7 +64,7 @@ const Home = () => {
         </h1>
         <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-            <div className="bg-gray-100 shadow-md rounded-lg p-6 h-[20rem]">
+            <div className="bg-gray-100 shadow-md rounded-lg p-6 md:h-[20rem]">
               <h2 className="text-lg font-bold mb-4">Book a Ride</h2>
               <p className="text-gray-600 mb-2">
                 Easily book a ride for your daily commute. Choose from bikes,
@@ -76,7 +76,7 @@ const Home = () => {
                 Learn More
               </button>
             </div>
-            <div className="bg-gray-100 shadow-md rounded-lg p-6 h-[20rem]">
+            <div className="bg-gray-100 shadow-md rounded-lg p-6 md:h-[20rem]">
               <h2 className="text-lg font-bold mb-4">Rent Car</h2>
               <p className="text-gray-600 mb-2">
                 Rent a car with seamless automation—from ID verification to
@@ -90,7 +90,7 @@ const Home = () => {
                 Learn More
               </button>
             </div>
-            <div className="bg-gray-100 hadow-md rounded-lg p-6 h-[20rem]">
+            <div className="bg-gray-100 hadow-md rounded-lg p-6 md:h-[20rem]">
               <h2 className="text-lg font-bold mb-4">Lost and Found</h2>
               <p className="text-gray-600 mb-2">
                 Report and recover lost items with our dedicated lost and found
