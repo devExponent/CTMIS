@@ -40,10 +40,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-12 mb-8">
-        <div className="container mx-auto px-4 w-full md:w-8/12 lg:w-10/12 text-justify">
+      <section className="py-12">
+        <div className="container mx-auto px-4 w-full md:w-8/12 lg:w-10/12">
           <p className="md:text-xl">
-            {/* Welcome to the Computerized Transport Management Information System
+            Welcome to the Computerized Transport Management Information System
             (CTMIS), your all-encompassing solution for modernizing
             transportation operations. Our platform offers real-time tracking,
             intelligent route optimization, and seamless integration, empowering
@@ -54,7 +54,6 @@ const Home = () => {
             and exceptional user experiences. Experience the future of
             transportation management with CTMIS, where innovation drives
             success.
-             */}
           </p>
         </div>
       </section>
