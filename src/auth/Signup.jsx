@@ -205,7 +205,7 @@ const Signup = () => {
                 <div className="flex justify-center w-[100%]">
                   <button
                     type="submit"
-                    className="px-28 py-4 text-base bg-gray-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition"
+                    className="py-4 text-base bg-gray-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition w-full"
                   >
                     Sign Up
                   </button>

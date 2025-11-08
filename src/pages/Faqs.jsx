@@ -98,13 +98,13 @@ const Faqs = () => {
   return (
     <>
       <section className="my-10">
-        <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4">
+        <div className="container mx-auto w-full w-md:w-8/12 lg:w-10/12 px-4">
           <h1 className="font-bold text-[2rem] mt-6 md:mt-0 md:text-[3rem] text-center my-5">
             CTMIS Business FAQs
           </h1>
-          <div className="text-justify w-8/12 mx-auto">
+          <div className="text-justify w-10/12 mx-auto">
             <p className="my-2">
-              Welcome to CTMIS, Yyur Smart Transportation Companion! At CTMIS we
+              Welcome to CTMIS, Your Smart Transportation Companion! At CTMIS we
               aim to simplify and enhance your intercity travel experience using
               modern digital solutions. Below are answers to some frequently
               asked questions to help you understand how CTMIS works and how it
@@ -114,7 +114,7 @@ const Faqs = () => {
         </div>
       </section>
       <section>
-        <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4">
+        <div className="container mx-auto w-10/12 md:w-8/12 lg:w-10/12 px-4">
           <div className="w-full mx-auto py-4">
             {faqItems.map((item, index) => (
               <div key={index}>
@@ -138,13 +138,13 @@ const Faqs = () => {
         </div>
       </section>
       <section className="mb-20 mt-10">
-        <div className="container mx-auto w-full md:w-8/12 lg:w-10/12 px-4">
+        <div className="container mx-auto w-10/12 md:w-8/12 lg:w-10/12 px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10">
             <div>
               <h1 className="font-bold text-[2rem] mt-6 md:mt-0 md:text-[3rem]  my-3">
                 Contact Us
               </h1>
-              <p className="text-justify">
+              <p className="">
                 We’d love to hear from you! Whether you have questions about our
                 Computerized Transport Management Information System (CTMIS),
                 need a demo, or require support, our team is here to help. Fill
