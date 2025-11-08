@@ -102,7 +102,7 @@ const Faqs = () => {
           <h1 className="font-bold text-[2rem] mt-6 md:mt-0 md:text-[3rem] text-center my-5">
             CTMIS Business FAQs
           </h1>
-          <div className="text-justify w-10/12 mx-auto">
+          <div className="w-10/12 mx-auto">
             <p className="my-2">
               Welcome to CTMIS, Your Smart Transportation Companion! At CTMIS we
               aim to simplify and enhance your intercity travel experience using
