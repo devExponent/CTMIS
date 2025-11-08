@@ -15,7 +15,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            to="/lost-found"
+            to="/lostfound"
             className="hover:text-blue-500 sm:w-auto w-full"
           >
             Lost & Found
@@ -25,7 +25,6 @@ export default function Footer() {
           </Link>
         </div>
 
-        {/* Social Media Icons */}
         <div className="flex justify-center space-x-6">
           <a
             href="https://facebook.com"
@@ -53,7 +52,6 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* Contact Information */}
         <div>
           <p>
             Email:{" "}
