@@ -37,7 +37,10 @@ export default function Navbar() {
           Login
         </Link>
 
-        <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+        <button
+          className="md:hidden"
+          onClick={() => setIsOpen((prev) => !prev)}
+        >
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
       </div>
