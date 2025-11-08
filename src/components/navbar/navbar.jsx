@@ -88,7 +88,11 @@ export default function Navbar() {
         >
           Login
         </Link>
-        <Link to="/user" className="hover:text-gray-500">
+        <Link
+          to="/user"
+          className="bg-white px-4 py-2 rounded-lg font-medium hover:bg-gray-200"
+          onClick={() => setIsOpen(false)}
+        >
           Dashboard
         </Link>
       </div>
