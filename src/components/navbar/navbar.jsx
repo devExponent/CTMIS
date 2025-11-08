@@ -44,10 +44,10 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute left-0 w-full bg-white text-black text-lg flex flex-col space-y-4 text-center p-4 shadow-lg transform transition-all duration-300 ease-in-out ${
+        className={`md:hidden absolute left-0 w-full bg-white text-black text-lg flex flex-col space-y-4 text-center p-4 shadow-lg transform transition-all duration-700 ease-in-out ${
           isOpen
-            ? "opacity-100 translate-y-0 top-[62px]"
-            : "opacity-0 -translate-y-20 -z-10 pointer-events-none top-[70px]"
+            ? "opacity-100 translate-x-0 top-[63px]"
+            : "opacity-0 -translate-y-5 -z-10 pointer-events-none top-[70px]"
         }`}
       >
         <Link
