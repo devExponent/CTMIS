@@ -85,6 +85,9 @@ export default function Navbar() {
         >
           Login
         </Link>
+        <Link to="/user" className="hover:text-gray-500">
+          Dashboard
+        </Link>
       </div>
     </nav>
   );
